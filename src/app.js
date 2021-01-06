@@ -27,7 +27,7 @@ const hbs=require('hbs');
 const partial_path=path.join(__dirname,'../templates/partials');
 hbs.registerPartials(partial_path);
 
-console.log(process.env.DB_NAME);
+// console.log(process.env.DB_NAME);
 
 app.get("/",async(req,res)=>{  
     res.render("index");  // this will render at localhost 7000

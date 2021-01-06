@@ -38,6 +38,6 @@ const employeeSchema=new mongoose.Schema({
 
 
 //now we need o create the collection
-const  Register=new mongoose.model("Dynamic_website_data",employeeSchema);// collection name will be Contact_Data
+const  Register=new mongoose.model("Dynamic01",employeeSchema);// collection name will be Contact_Data
 module.exports=Register;
 
